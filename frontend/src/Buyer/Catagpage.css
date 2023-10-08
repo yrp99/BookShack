@@ -1,0 +1,106 @@
+.servicesCata{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    /* position: fixed; */
+    width: 100%;
+    height: 100vh;
+    /* margin-bottom: 8rem; */
+    /* margin-top: 9rem; */
+    /* margin-bottom: 13rem; */
+    /* overflow: scroll; */
+    background-color:#fff;
+
+}
+
+.awesome{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.awesome > :nth-child(1){
+    color: azure;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 50%;
+}
+
+.awesome >:nth-child(2){
+    color: rgb(137, 35, 35);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.awesome>:nth-child(3){
+    color: rgb(91, 226, 226);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.buttonn{
+    border-radius: 24px;
+    border: none;
+    color: rgb(253, 255, 245);
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    background: linear-gradient(180deg, #fdc50f 26.75%,#fb892f 99.34%);
+    box-shadow: 0 20px 24px 3px rgba(251,161,40,0.42);
+  }
+
+  .buttonn:hover{
+    background: #aa8787;
+    cursor: pointer;
+    color: #fdc50f;
+    border: 1px inset orangered;
+  }
+
+.s-button{
+    width: 10rem;
+    height: 3rem;
+    margin-top: 1rem;
+
+}
+
+.cards{
+    position: relative;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    
+    
+}
+
+.cards>*{
+    position: absolute;
+}
+
+.s-blur1{
+    top:13rem;
+    left: -18rem;
+}
+
+.s-blur2{
+    left: 14rem;
+    top: 8rem;
+}
+
+@media screen and (max-width:800px){
+    .services{
+     margin-top: 0;
+     flex-direction: column;
+     gap: 5rem;
+     height: 66rem;
+     padding: 0;   
+    }
+    .cards{
+        display: flex;
+        flex-direction:column ;
+        gap: 17rem;
+    }
+
+    .cards>*{
+        position: static;
+    }
+
+}

@@ -1,0 +1,123 @@
+
+
+
+ .secSub{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    border: 2px solid black;
+    overflow: scroll;
+    overflow-x: hidden;
+ }
+
+ .arrivals{
+    position: relative;
+    display: block;
+    overflow: auto;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+    margin-bottom: 35px;
+    /* border: 1px solid red; */
+}
+
+
+
+.arrivals .H1{
+    font-size:50px ;
+    text-align: center;
+    margin-bottom: 35px;
+    color: black;
+}
+
+ .arrivals_box{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 25px 0;
+    /* border: 1px solid blue; */
+    display:flex;
+    flex-wrap: wrap;
+    /* width: 99%; */
+    padding: 1%;
+}
+
+ .arrivals_card {
+    width:250px ;
+    height: 300px;
+    text-align: center;
+    background-color: #eaafaf;
+    padding: 20px;
+    border: 1px solid #eaafaf;
+    margin:  15px;
+
+}
+
+.awd{
+    padding: 5px;
+}
+ 
+ .arrivals_card:hover{
+    box-shadow: 10px 10px 10px  #e01717 ;
+}
+
+ .arrivals_image{
+    width: 150px;
+    height: 220px;
+    margin: 0 auto;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+
+
+ .arrivals_image img{
+    width: 100%;
+    height:100% ;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+
+}
+
+.arrivals .arrivals_box .arrivals_card:hover .arrivals_image img{
+  transform: scale(1.1);
+}
+
+ .arrivals_tag p{
+    font-family: queen of camelot;
+    font-size: 20px;
+    margin: 8px 0;
+}
+
+ .arrivals_icon{
+    color: rgb(17, 16, 16);
+    margin-bottom: 18px;
+
+}
+
+ .arrivals_btn{
+    padding: 8px 20px;
+    border: 2px solid #bf7b7b;
+    text-decoration: none;
+    color: rgb(39, 35, 35);
+    margin-top: 10px;
+
+}
+
+
+@media(width:800px)
+{
+    .arrivals_box{
+        width: auto;
+        padding: 0 10px;
+    }
+
+    .arrivals_card{
+        width: 350px;
+    }
+}

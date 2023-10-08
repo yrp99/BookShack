@@ -1,0 +1,169 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+  */
+.secSign{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    min-height: 100%;
+    height: 140vh;
+    background-image: url("./bg.jpg") ; 
+    /* background-size:cover ;  */
+    background-position: center; 
+    animation: animateBg 15s linear infinite;
+    /* background: #a04444; */
+}
+
+@keyframes animateBg{
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+.Sign-up{
+    margin-top: 20px;
+    position: relative;
+    width: 500px;
+    height: 800px;
+    background:transparent;
+    border: 2px solid rgba(255,255,255,.5);
+    border-radius: 40px;
+    box-shadow: 30px 25px 30px 10px black;
+    backdrop-filter: blur(25px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Edit-det{
+    position: relative;
+    width: 500px;
+    height: 600px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    background:transparent;
+    border: 2px solid rgba(255,255,255,.5);
+    border-radius: 40px;
+    box-shadow: 30px 25px 30px 10px black;
+    backdrop-filter: blur(25px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* top: -100px; */
+
+}
+
+/* @media screen and (min-Width:) {
+    
+} */
+
+.signH{
+    
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+   
+}
+
+.Input-Sign{
+    position: relative;
+    width: 380px;
+    margin: 25px 0;
+    border-bottom: 2px solid #fff;
+
+}
+
+.Input-Sign .signleb{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #fff;
+    pointer-events: none;
+    transition: .20s;
+}
+.Input-Sign .signinput:focus~.signleb,
+.Input-Sign .signinput:valid~.signleb{
+    top: -10px;
+}
+
+.Input-Sign .signinput{
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+    padding: 10px 35px 0 5px;
+    margin: 0%;
+}
+
+.Input-Sign .icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+
+}
+
+.signbtn{
+    width: 100%;
+    height: 40px;
+    background: hwb(0 81% 16%);
+    border:0px solid;
+    outline: none;
+    border-radius: 30px; 
+    cursor: pointer;
+    font-size: 20px;
+    color: #151414;
+    font-weight: 500;
+
+}
+.btn{
+    border-radius: 10px;
+}
+.login-link{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+
+}
+.login-link p a{
+    color: #fff;
+    margin-left: 5px;
+
+}
+
+@media screen and(max-width :400px){
+    .secSign{
+        width: 2000px;
+    }
+    .Sign-up{
+        width: 100%;
+        height: 100vh;
+        border: none;
+        border-radius: 0;
+
+
+    }
+    .Input-Sign{
+        width: 290;
+    }
+
+}  
+
+@media screen and (min-width:400px) {
+    .secSign{
+        width: 1520px;
+    }
+}

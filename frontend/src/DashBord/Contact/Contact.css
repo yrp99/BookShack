@@ -1,0 +1,80 @@
+/* .contact-form{
+    height: 50vh;
+    width:120vh ;
+    background-color: #e84141;
+ 
+
+    
+
+}
+
+.awesomes{
+    
+    background-color: aqua;
+    
+}
+
+@media screen and (max-width:800px) {
+     
+    .contact-form{
+        width: 1500px;
+        height: 500px;
+
+    }
+}
+
+.awesomes > :nth-child(1){
+    color: rgb(85, 216, 216);
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.awesomes >:nth-child(2){
+    color: rgb(137, 35, 35);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.c-right{
+ 
+  margin: 20px;
+ 
+   background-color: rgb(159, 232, 232);
+}
+
+.c-c-right{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.c-right .user{
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+.c-right .mass1{
+ margin-right: 270px;
+}
+
+.c-right .mass2{
+    margin-right: 590px;
+   
+}
+
+.c-right .users{
+    width: 670px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.co-button{
+ 
+    width: 200px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+} */
+

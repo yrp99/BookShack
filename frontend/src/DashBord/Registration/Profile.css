@@ -1,0 +1,195 @@
+/* 
+.main123 {
+  width: 30%;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+.profile {
+  background-color: white;
+  padding: 20px;
+  margin-top: 70px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+}
+.profile h1 {
+  text-align: center;
+}
+.profile p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.EditProfilee{
+  background-color: rgb(138, 1, 138); 
+  color: white; 
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.MyselledBooks{
+  background-color: #52ad0c; 
+  color: white; 
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin-left: 112px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.myOrder{
+  background-color: #0011ff; 
+  color: white; 
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.logout{
+  background-color: #ec1010; 
+  color: white; 
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin-left: 145px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  
+} */
+
+
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+} */
+.main123 {
+  width: 100%;
+  /* margin-top: 5%; */
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  display: flex;
+  height: 600px;
+  justify-content: center;
+}
+
+.p{
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+
+
+.profile {
+  
+  width: 100%;
+  background-color: #c5f3f6;
+  padding: 20px;
+  margin-top: 70px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+}
+.profile h1 {
+  text-align: center;
+  color: #142627;
+}
+/* .profile p {
+  text-align: center;
+  margin-bottom: 20px;
+} */
+.EditProfilee{
+  background-color: #142627; 
+  color: white; 
+  border: 1px solid black;
+  /* padding: 10px 20px; */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 200px;
+   /* margin-left: 400px; */
+  margin-bottom: 10px;
+  /* margin-right: -50px; */ 
+
+}
+.MyselledBooks{
+  background-color: #142627; 
+  color: white; 
+  border: 1px solid black;
+  /* padding: 10px 20px; */
+  /* margin-left: 112px; */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 200px;
+  /* margin-top: 40px;
+  margin-bottom: 30px; */
+  margin-bottom: 10px;
+}
+
+.delete{
+    background-color: #142627;
+      color: white;
+      border: 1px solid black;
+      /* padding: 10px 20px; */
+      /* margin-left: 112px; */
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      width: 200px;
+      /* margin-bottom: 30px; */
+      margin-bottom: 10px;
+}
+
+.myOrder{
+  background-color: #142627; 
+  color: white; 
+  border: 1px solid black;
+  /* padding: 10px 20px; */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 200px;
+  margin-bottom: 10px;
+  
+}
+.logout{
+  background-color: #e37575; 
+  color: white; 
+  border: 1px solid black;
+  /* padding: 10px 20px; */
+  margin-left: 145px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 200px;
+  
+}
+
+
+.inside{
+  background-color: #307c82;
+  width: 600px;
+  padding-top: 150px;
+  height: 600px;
+  justify-content: center;}

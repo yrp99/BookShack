@@ -1,0 +1,119 @@
+/* .services{
+    
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    width:  100%;
+    height: 110vh;
+    position: absolute;
+   
+    background-color:#e41b1b;
+
+}
+
+
+@media screen and (max-width:800px){
+    .services{
+      flex-direction: column;
+      width: 1500px;
+      height: 200px;
+    }
+    .cardbox{
+      margin: 1px;
+    
+    }
+}
+
+ .button{
+    border-radius: 24px;
+    border: none;
+    color: rgb(253, 255, 245);
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    background: linear-gradient(180deg, #fdc50f 26.75%,#fb892f 99.34%);
+    box-shadow: 0 20px 24px 3px rgba(251,161,40,0.42);
+  }
+
+  .button:hover{
+    background: #aa8787;
+    cursor: pointer;
+    color: #fdc50f;
+    border: 1px inset orangered;
+  } 
+
+.s-button{
+    width: 10rem;
+    height: 3rem;
+    margin-top: 1rem;
+
+}
+
+.cards{
+    position: relative;
+    margin-bottom: 50px;
+    padding-top: 50px;
+
+    display: flex;
+    display: inline;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+ */
+
+.contact-form{
+ width: 101%;
+  margin: 0%;
+  padding: 0%;
+  background-color: aqua;
+  display: block;
+
+}
+
+.servicesV{
+  width: 103%;
+  margin: 0%;
+  height: 100%;
+  background-color: white;
+  /* display: flex; */
+
+}
+.scards{
+  width: 100%;
+  /* height: 100%; */
+  display: flex;
+  /* margin: 10px; */
+  padding: 40px;
+}
+
+@media screen and (max-width:400px) {
+
+  .servicesV{
+    width: 1500px;
+
+  }
+  .scards{
+    display: grid;
+    justify-content: center;
+  }
+  
+}
+
+@media screen and (min-width:400px) {
+
+  .servicesV{
+    width: 1500px;
+  }
+  
+}
+
+.cardbox{
+  padding: 40px;
+}
+
+
+

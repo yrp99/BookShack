@@ -1,0 +1,129 @@
+.photo{
+    width: 400px;
+    height: 450px;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(166, 196, 223);
+    gap: 1rem;
+    align-items: center;
+    /* border: 2px red solid; */
+    /* width: 10rem; */
+    text-align: center;
+    background: rgba(rgb(218, 139, 139), green, blue, alpha);
+    border: 3px inset rgb(214, 239, 54);
+    box-shadow: 1px 1px 10px 10px;
+    border-radius: 20px;
+    padding: 0px 26px 2rem 26px;
+    /* margin: 10px; */
+}
+
+.photo span :nth-of-type(2){
+    color: cadetblue;
+    font-size: 16px;
+}
+
+.photo>img{
+    transform: scale(0.7);
+    /* margin-bottom: -2rem; */
+    width: 500px;
+    height: 300px;
+}
+
+.c-button{
+    background: #e08a8a;
+    box-shadow: 0px 19px 60px rgba(0, 0, 0, 0.08);
+    border-radius: 35px;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ced4df;
+    width: 7rem;
+}
+
+@media screen and (max-width:800px) {
+    .photo{
+        
+        justify-content: center;
+        margin: auto;
+    }
+}
+@media screen and (max-width:1200px){
+    .services{
+      flex-direction: column;
+      width: 1500px;
+      height: 800px;
+      /* height: 1200px; */
+    }
+
+}
+
+.contact-form{
+    height: 70vh;
+    background-color: #fff;
+}
+
+.awesomes{
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* position: srelative; */
+    
+}
+
+.awesomes > :nth-child(1){
+    color: rgb(85, 216, 216);
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.awesomes >:nth-child(2){
+    color: rgb(137, 35, 35);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.c-right{
+   /* margin: 10px; */
+  margin: 20px;
+  /* display: flex; */
+   /* background-color: azure; */
+}
+
+.c-c-right{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.c-right .user{
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+.c-right .mass1{
+ margin-right: 270px;
+}
+
+.c-right .mass2{
+    margin-right: 590px;
+   
+}
+
+.c-right .users{
+    width: 670px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.co-button{
+    /* width: px; */
+    width: 200px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
